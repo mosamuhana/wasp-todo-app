@@ -86,14 +86,14 @@ route LoginRoute { path: "/login", to: LoginPage }
 route SignupRoute { path: "/signup", to: SignupPage }
 
 page DashboardPage {
-  component: import Dashboard from "@client/pages/Dashboard",
+  component: import Dashboard from "@client/pages/DashboardPage",
   authRequired: true
 }
 
 page LoginPage {
-  component: import Login from "@client/pages/auth/Login"
+  component: import Login from "@client/pages/LoginPage"
 }
 
 page SignupPage {
-  component: import Signup from "@client/pages/auth/Signup"
+  component: import Signup from "@client/pages/SignupPage"
 }
