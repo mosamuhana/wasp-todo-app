@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --auth-form-brand: theme(colors.primary.500);
+  --auth-form-brand-accent: theme(colors.primary.600);
+  --auth-form-submit-button-text-color: theme(colors.white);
+}
+
+.primary-btn {
+  @apply
+    px-4 py-2
+    rounded-md
+    text-gray-100
+    hover:text-white
+    bg-primary-700
+    hover:bg-primary-500
+    active:bg-primary-600
+    disabled:bg-gray-400 disabled:text-gray-800 disabled:cursor-default;
+}
