@@ -1,4 +1,4 @@
-# Wasp TodoApp
+# WASP TodoApp
 
 ---
 
